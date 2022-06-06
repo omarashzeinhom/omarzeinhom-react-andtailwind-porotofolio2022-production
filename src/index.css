@@ -1,0 +1,241 @@
+/*
+ *
+ * CSS written based on SMACSS architecture.
+ * To learn more, visit: http://smacss.com/
+ * 
+ * For simplicity, no reset or normalize is added. 
+ * To learn more, visit: https://css-tricks.com/reboot-resets-reasoning/
+ *
+*/
+
+/* Fonts 
+* 'Playfair Display' for Big Headers
+* Chivo Light 300 Fot Text 
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Playfair+Display:ital,wght@1,700&display=swap");
+
+/*  Color Palette CSS3 Variables
+*background : linear gradient black #earlyretirement
+*text : white : #ffff
+*borders: golden rod
+*/
+
+:root {
+  /*Primary and Secondary colors*/
+  --color-primary: #C0C0C0; /*  Rose gold  */
+  --color-primary-variant: #e5e4e2; /* Platinum  */
+  --color-white: #ffff;
+  --color-light: #daa520;
+  /*Wrapper width*/
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+  /*Wrapper width end*/
+  /*Background Colors*/
+  --color-background: #000000;
+  --color-bg-variant: #292727af;
+  --color-linear-bg: linear-gradient(315deg, #000000 0%, #414141 74%);
+  /*Transistion*/
+  --transition: all 500ms ease;
+  --transition-fast: all 300ms ease;
+  
+}
+
+/* ---- Base Rules ---- */
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  border: 0rem;
+  outline: 0rem;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/*Removes scollbar view*/
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  z-index: -1;
+  font-weight: 700;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: var(--color-light);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: "Chivo", sans-serif;
+  /*background: var(--color-linear-bg); /*Removed to disable weird effect*/
+  animation: gradient 20s ease infinite;
+  background-image: url(https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653641685/personal_portofolio_assets_2022/BlR8GZ_lldi3p.webp);
+}
+
+/*
+* ----  Typeography General  ---- 
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-white);
+  font-family: "Playfair Display", serif;
+  text-shadow: 0px 2px 0px rgb(0 0 0 / 50%);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 1.3rem;
+}
+
+h6 {
+  font-size: 0.5rem;
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+/*** Each section has a direct child as h2 ***/
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
+section > h2 {
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+}
+
+/* ---- Module Rules ---- */
+
+/**** - General Styles - *****/
+html{
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: var(--container-width-lg);
+  height: 100%;
+  margin: 0rem auto;
+  transition: var(--transition);
+}
+
+section {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  gap: 7rem;
+}
+
+/** a href tags **/
+
+a {
+  color: var(--color-primary-variant);
+  transition: var(--transition);
+}
+
+a:hover {
+  border-color: transparent;
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+/** img  **/
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* ---- bg-slide  ---- */
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* ---- Theme State Rules ---- */
+
+/*** Media Queries for Resposinveness ***/
+
+/*** Media Queries for Medium Devices Tablets ***/
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+    height: 100%;
+    margin: 0rem auto;
+    transition: var(--transition);
+    
+  }
+  section {
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+
+  }
+}
+
+/*** Media Queries for Small Devices Mobile Phones ***/
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+  section {
+    padding-top: 0.1rem;
+    padding-bottom: 0.5rem;
+    gap: 1rem;
+  }
+
+  section > h2 {
+    margin-bottom: 3rem;
+  }
+
+  body {
+    background-color: #000000;
+   
+  }
+  
+}
+
