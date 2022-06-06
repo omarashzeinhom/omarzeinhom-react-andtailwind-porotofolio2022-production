@@ -8,7 +8,6 @@ import {ImArrowDownRight2} from "react-icons/im";
 const Header = () => {
   return (
     <section className="container">
-
     <header>
       <div className="container header__container">
         <h5>Hello !, I'm</h5>

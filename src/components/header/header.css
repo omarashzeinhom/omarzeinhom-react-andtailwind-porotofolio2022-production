@@ -71,7 +71,6 @@ My Image
 
 .me {
   background: linear-gradient(var(--color-white), transparent);
-  opacity: 95%;
   width: 100%;
   height: 100%;
   right: 0%;
@@ -84,7 +83,6 @@ My Image
 
 .me:hover{
   background: linear-gradient(var(--color-primary-variant), transparent);
-  opacity: 95%;
   width: 100%;
   right: 0%;
   margin-top: 1rem;
@@ -133,7 +131,6 @@ Butt0ns
 *****************/
 
 .btn {
-  opacity: 90%;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
@@ -151,7 +148,6 @@ Butt0ns
 }
 
 .btn:hover {
-  opacity: 90%;
   border-radius: 1rem;
   border-color: transparent;
   color: var(--color-background);
@@ -162,7 +158,6 @@ Butt0ns
 }
 
 .btn-primary {
-  opacity: 90%;
   padding: 0.8em 1.2em;
   border-radius: 1rem;
   background-color: transparent;
@@ -170,7 +165,6 @@ Butt0ns
 }
 
 .btn::before {
-  opacity: 90%;
   content: "";
   position: absolute;
   top: 0;
@@ -184,14 +178,12 @@ Butt0ns
 }
 
 .btn:hover::before {
-  opacity: 90%;
   opacity: 0;
   transform: scale(0.5, 0.5);
   border-radius: 1rem;
 }
 
 .btn::after {
-  opacity: 90%;
   content: "";
   position: absolute;
   top: 0;
@@ -207,7 +199,6 @@ Butt0ns
 }
 
 .btn:hover::after {
-  opacity: 1;
   transform: scale(1, 1);
   border-radius: 1rem;
 }
