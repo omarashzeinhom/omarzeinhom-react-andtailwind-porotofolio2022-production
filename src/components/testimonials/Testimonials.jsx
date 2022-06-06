@@ -91,7 +91,6 @@ const testimonialsdata = [
     image: "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653641527/personal_portofolio_assets_2022/testimonials_avatars/ya_testimonial_3_mwn9sf.webp",
     comment:
       '"Omar assited in my websites design , implementation and assited the lead developer in styling , functionality and various other comments in PHP."',
-
     upworktestimonials: "",
   },
 ];

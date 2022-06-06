@@ -143,7 +143,6 @@ small {
 }
 
 .swiper__button::before {
-  opacity: 90%;
   content: "";
   position: absolute;
   top: 0;
@@ -156,13 +155,11 @@ small {
 }
 
 .swiper__button:hover::before {
-  opacity: 90%;
   transform: scale(0.1, 0.1);
   border-radius: 1rem;
 }
 
 .swiper__button::after {
-  opacity: 90%;
   content: "";
   position: absolute;
   top: 0;
@@ -179,7 +176,6 @@ small {
 }
 
 .swiper__button:hover::after {
-  opacity: 1;
   transform: scale(1, 1);
   border-radius: 1rem;
 }
