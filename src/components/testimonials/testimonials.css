@@ -118,7 +118,6 @@ small {
 /*** Swiper button ***/
 
 .swiper__button {
-  opacity: 90%;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
@@ -133,7 +132,6 @@ small {
 }
 
 .swiper__button:hover {
-  opacity: 90%;
   border-radius: 1rem;
   border-color: transparent;
   color: var(--color-background);
