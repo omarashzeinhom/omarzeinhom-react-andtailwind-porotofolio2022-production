@@ -6,7 +6,6 @@ import { CgProfile } from "react-icons/cg";
 import { RiFileMarkLine } from "react-icons/ri";
 import { VscCallOutgoing } from "react-icons/vsc";
 import { MdWork,MdOutlineDesignServices } from "react-icons/md";
-import {FaGamepad} from "react-icons/fa";
 
 const NavigationBar = () => {
   const [activeNav, setActiveNav] = useState("#");

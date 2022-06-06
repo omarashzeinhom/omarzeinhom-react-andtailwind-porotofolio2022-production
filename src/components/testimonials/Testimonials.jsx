@@ -8,7 +8,8 @@ import "./testimonials.css";
 import { Pagination, EffectCube} from "swiper";
 import React from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react"; import "swiper/swiper-bundle.min.css";
+import { Swiper, SwiperSlide } from "swiper/react/swiper-react"; 
+import "swiper/swiper-bundle.min.css";
 // Import Swiper styles
 
 
@@ -81,7 +82,7 @@ const testimonialsdata = [
     title: "Owner TrophyHouse EG",
     image: "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653641527/personal_portofolio_assets_2022/testimonials_avatars/ay_testimonial_1_zjshan.webp",
     comment:
-      '"Omar has worked on fixing my website after launching i have lost my gallery pages , Omar was able to find a modern solution for my wordpress website with Smartslide and added my new catalog!!!"',
+      '"Omar has worked on our new website from scratch, finding modern solutions and usally updating the security and website itself"',
     upworktestimonials: "www.upwork.com"
   },
   {
@@ -90,7 +91,7 @@ const testimonialsdata = [
     title: "Owner of Antakh and ANK",
     image: "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653641529/personal_portofolio_assets_2022/testimonials_avatars/as_testimonial_2_mhats9.webp",
     comment:
-      '"I have developed my own website , However Omar helped me adding features i didnt know i could add like adding a user registration system and checkout system utilizing the wix store , he helped me migrate from my other wix store ecwid"',
+      '"Omar helped me adding features i didnt know i could add like adding a user registration system and checkout system utilizing the wix store , he helped me migrate from my other wix store ecwid"',
 
     upworktestimonials: "",
   },
@@ -100,7 +101,7 @@ const testimonialsdata = [
     title: "CEO and Owner of the OutSourcing Company",
     image: "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653641527/personal_portofolio_assets_2022/testimonials_avatars/ya_testimonial_3_mwn9sf.webp",
     comment:
-      '"Omar assited in my websites design , implementation and assited the lead developer in styling , functionality and various other comments in PHP. He is also expected to upgrade our website next year"',
+      '"Omar assited in my websites design , implementation and assited the lead developer in styling , functionality and various other comments in PHP."',
 
     upworktestimonials: "",
   },

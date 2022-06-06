@@ -5,7 +5,6 @@ import {
   FaCss3Alt,
   FaHtml5,
   FaSass,
-  FaLaravel,
   
 } from "react-icons/fa";
 import {

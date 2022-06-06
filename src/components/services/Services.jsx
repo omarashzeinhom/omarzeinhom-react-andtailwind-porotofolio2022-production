@@ -7,7 +7,6 @@ import {
   FaDeviantart,
   FaYoutube,
   FaKey,
-  FaLaravel,
   FaSass,
   FaBootstrap,
 } from "react-icons/fa";
