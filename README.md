@@ -191,7 +191,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/omar-abdelrahman-7602a9126/
 [product-screenshot]: images/screenshot.jpg
->>>>>>> 70180068acbfdde3ebc6082146a89ba4b7e0547d
 
 
 netlify build
@@ -199,4 +198,3 @@ netlify build
 netlify deploy --prod
 
 1. https://docs.netlify.com/cli/get-started/
-2. 
