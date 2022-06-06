@@ -1,6 +1,7 @@
 import React from "react";
 import "./certifcates.css";
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react"; import "swiper/swiper-bundle.min.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 import { EffectCards } from "swiper";
 

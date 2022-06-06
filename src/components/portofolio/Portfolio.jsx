@@ -1,11 +1,13 @@
 import React from "react";
 import "./portfolio.css";
 
+import { Pagination} from 'swiper';
 
 
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react"; import "swiper/swiper-bundle.min.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 // Import Swiper styles
-import { Pagination } from "swiper";
+import 'swiper/css/pagination';
 
 
 

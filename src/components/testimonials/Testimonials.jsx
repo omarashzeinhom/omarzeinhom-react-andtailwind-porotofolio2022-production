@@ -1,16 +1,11 @@
 import "./testimonials.css";
-/**Import Avatars here */
-
-
-
-
-// import required modules
-import { Pagination, EffectCube} from "swiper";
 import React from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react"; 
-import "swiper/swiper-bundle.min.css";
+// import required modules
+import { Pagination, EffectCube} from "swiper";
 // Import Swiper styles
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 
 
@@ -21,16 +16,10 @@ const Testimonials = () => {
   return (
     <>
       <Swiper
-       effect={"cube"}
+       effect={""}
        grabCursor={true}
-       cubeEffect={{
-         shadow: true,
-         slideShadows: true,
-         shadowOffset: 20,
-         shadowScale: 0.94,
-       }}
        pagination={true}
-       modules={[EffectCube, Pagination]}
+       modules={[Pagination]}
        className="testimonials__swiper"
       >
         <section id="testimonials">
