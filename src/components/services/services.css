@@ -1,0 +1,123 @@
+/***Container***/
+
+.services__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+}
+
+.service {
+  background: var(--color-bg-variant);
+  border-radius: 0 0 1.7rem 1.7rem;
+  border: 1px solid var(--color-primary);
+  height: fit-content;
+  transition: var(--transition);
+}
+
+.service:hover {
+  background: transparent;
+  cursor: default;
+  border-color: var(--color-primary-variant);
+  transform: scale(1.35);
+}
+
+/***Header***/
+
+.service__head {
+  background: var(--color-primary);
+  padding: 2rem;
+  border-radius: 0 0 1.9rem 1.9rem;
+  box-shadow: 0 0 2rem 1rem rgba(45deg rgba(252, 156, 169, 0.849), transparent);
+}
+
+.service__head,
+h3 {
+  color: var(--color-bg);
+  text-align: center;
+  font-size: 1rem;
+}
+
+/***List***/
+
+.service__list {
+  padding: 1.9rem;
+}
+
+.service__list li {
+  display: flex;
+  gap: 1.3rem;
+  margin-bottom: 0.7rem;
+  font-size: 2rem;
+}
+
+/***List icons and hover***/
+
+.service__list__icon {
+  color: var(--color-primary);
+  margin-top: 2px;
+  transform: scale(1.5);
+  transition: var(--transition-fast);
+}
+
+.service__list__icon:hover {
+  margin-top: 5px;
+  color: var(--color-primary-variant);
+  cursor: default;
+  transform: scale(2.3);
+}
+
+.service__list p {
+  font-size: 2rem;
+}
+
+.service__list a {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.7rem;
+  font-size: 1rem;
+  color: var(--color-light);
+}
+
+/*** Media Queries ***/
+
+/*** 
+Media Queries for Medium Sized Devices Tablets 
+***/
+
+@media screen and (max-width: 1024px) {
+  .services__container {
+    grid-template-columns: 1fr, 1fr;
+    gap: 3rem;
+  }
+  .service {
+    height: auto;
+  }
+  .service__list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+  }
+  .service__list p {
+    font-size: 1rem;
+  }
+}
+/*** 
+Media Queries for Small Devices Mobile Phones 
+***/
+
+@media screen and (max-width: 600px) {
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .service__list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+  }
+  .service__list p {
+    font-size: 1rem;
+  }
+}

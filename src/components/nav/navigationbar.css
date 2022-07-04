@@ -1,0 +1,72 @@
+nav {
+    left: 50%;
+    z-index: 2;
+    opacity: 75%;
+    bottom: 2rem;
+    display: flex;
+    position: fixed;
+    overflow: hidden;
+    width: max-content;
+    border-radius: 3rem;
+    padding: 0.8rem 5.0rem;
+    transform: translateX(-51%);
+    backdrop-filter: blur(15px);
+    background-color: var(--color-background);
+}
+
+nav a {
+    background: transparent;
+    padding: 1.0rem;
+    display: flex;
+    border-radius: 50%;
+    color:      #C0C0C0
+;
+    font-size: 1.3rem;
+
+}
+
+nav a.active {
+    color:  var(--color-light);
+
+}
+
+button {
+    background: transparent;
+    padding: 1.0rem;
+    display: flex;
+    border-radius: 50%;
+    color: var(--color-light);
+    font-size: 1.3rem;
+}
+
+button .active {
+    color: #C0C0C0;
+
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    nav  {
+        position: fixed;
+      }
+   
+  }
+  
+  /*** Media Queries for Small Devices Mobile Phones ***/
+  
+  @media screen and (max-width: 600px) {
+    nav  {
+      align-items: center;
+      right: 50%;
+      opacity: 75%;
+      position: fixed;
+      width: max-content;
+      border-radius: 3rem;
+      padding: 0.8rem 5.0rem;
+      transform: translateX(-51%);
+      backdrop-filter: blur(15rem);
+      background-color: var(--color-background);
+    }
+  }

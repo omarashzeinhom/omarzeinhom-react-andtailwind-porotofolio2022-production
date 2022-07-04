@@ -1,0 +1,150 @@
+  
+  .certificates__item {
+    background: var(--color-bg-variant);
+    padding: 3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+  }
+  
+  .certificates__item:hover {
+    
+    border-color: var(--color-primary-variant);
+    background: transparent;
+  }
+  
+  .certificates_item__Image {
+    border-radius: 2;
+
+    overflow: hidden;
+  }
+  
+  .certificates_item__Image:hover {
+    border-radius: 2;
+    transform: scale(1.3);
+
+    overflow: hidden;
+  }
+
+
+  .certificates__item h3 {
+    margin: 1.1rem 0rem 2rem;
+  }
+  
+  .certificates__item__cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+
+
+
+
+/********Swiper*********/
+
+  .certificate__swiper {
+   max-width: 750px;
+    max-height: 750px;
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+
+   
+  }
+  
+  .certificate__swiper__slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .certificate__swiper__slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+  }
+  
+  .certificate__swiper__slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+  }
+  
+  .certificate__swiper__slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  }
+  
+  .certificate__swiper__slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+  }
+  
+  .certificate__swiper__slide:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+  }
+  
+  .certificate__swiper__slide:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+  }
+  
+  .certificate__swiper__slide:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+  }
+  
+  .certificate__swiper__slide:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+  }
+  
+  .certificate__swiper__slide:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+  }
+  
+  .certificate__swiper__slide:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /*** Media Queries for Medium Devices Tablets ***/
+  
+  @media screen and (max-width: 1024px) {
+    .certificates__container {
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .certificate__swiper {
+      width: 550px;
+       height: 550px;
+       
+      
+     }
+  }
+  
+  /*** Media Queries for Small Devices Mobile Phones ***/
+  
+  @media screen and (max-width: 600px) {
+    .certificates__container {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .certificate__swiper {
+      width: 150px;
+       height: 400px;
+       
+      
+     }
+  }
+  
