@@ -14,6 +14,8 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#deployment">Deployment</a>
+        </li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -30,9 +32,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://omarabdelrahman.netlify.app/)
 
-<a href="https://omarabdelrahmanportfolio.netlify.app/">Live Demo<a/>
+<a href="https://omarabdelrahman.netlify.app/">Live Demo<a/>
 
 
 This is just my personal portfolio with multiple sections added, services , contact and certifcates with all have their own unique style .
@@ -144,36 +146,36 @@ Project Link: [https://github.com/omarashzeinhom](https://github.com/omarashzein
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-1. https://artisanthemes.io/best-google-fonts-combinations-modern-agency-website/
+1. [Best-GoogleFonts-Combinations](https://artisanthemes.io/best-google-fonts-combinations-modern-agency-website)
 
-2. https://www.eggradients.com/category/black-gradient
+2. [Eggradients black gradients](https://www.eggradients.com/category/black-gradient)
 
-3. https://fonts.google.com/specimen/Chivo?query=chivo+
+3. [GoogleFonts Chivo ](https://fonts.google.com/specimen/Chivo?query=chivo+)
 
-4. https://stackoverflow.com/questions/39328263/how-to-make-gradient-background-fill-the-entire-page
+4. [how-to-make-gradient-background-fill-the-entire-page](https://stackoverflow.com/questions/39328263/how-to-make-gradient-background-fill-the-entire-page)
 
-5. Animated Background From: https://codepen.io/alvarotrigo/pen/GRvYNax
+5. [Animated Background codepen example](https://codepen.io/alvarotrigo/pen/GRvYNax)
 
-6. https://learn-the-web.algonquindesign.ca/courses/javascript/bubble-popper/
+6. [bubble-popper](https://learn-the-web.algonquindesign.ca/courses/javascript/bubble-popper/)
 
-7. https://codepen.io/natalia-reshetnikova/pen/oRRjPP
+7. [natalia-reshetnikova](https://codepen.io/natalia-reshetnikova/pen/oRRjPP)
 
+8. [react-icons](https://react-icons.github.io/react-icons/)
+   
+9.  [how-to-create-a-simple-responsive-footer-in-react-j](https://www.geeksforgeeks.org/how-to-create-a-simple-responsive-footer-in-react-js)
+  
+10. [CSS Grid Container](https://www.w3schools.com/css/css_grid_container.asp)
 
-8. https://react-icons.github.io/react-icons/
+<!-- DEPLOY THE PROJECT -->
 
-9. https://www.geeksforgeeks.org/how-to-create-a-simple-responsive-footer-in-react-js/
-<<<<<<< HEAD
-    
-10. (CSS Grid Container
-)[https://www.w3schools.com/css/css_grid_container.asp]
-
-##### Deploy by 
+##### Deployment
 =======
-  
-  
-  
-  
-  
+```
+netlify build
+
+netlify deploy --prod
+```
+[getstarted-netlify-cli](https://docs.netlify.com/cli/get-started/)
   
   
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -191,10 +193,3 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/omar-abdelrahman-7602a9126/
 [product-screenshot]: images/screenshot.jpg
-
-
-netlify build
-
-netlify deploy --prod
-
-1. https://docs.netlify.com/cli/get-started/
