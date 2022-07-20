@@ -31,9 +31,7 @@ const Portfolio = () => {
               return (
                 <SwiperSlide>
                   <article className="portfolio__item" key={id}>
-                    <div className="portfolio__item__image">
-                      <img src={image} alt={title} loading="lazy" />
-                    </div>
+                      <img src={image} alt={title} loading="lazy" className="portfolio__item__image" />
                     <h3>{title}</h3>
                     <div className="portfolio__item__cta">
                       <a

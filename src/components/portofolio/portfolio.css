@@ -1,6 +1,7 @@
 .container .portfolio__container {
   display: grid;
-  gap: 5rem;
+  gap: 10rem;
+  cursor: pointer;
 }
 
 .portfolio__item {
@@ -15,6 +16,7 @@
   border-spacing: 1rem;
   border-color: var(--color-primary-variant);
   box-shadow: 1px 1px 1px 1px;
+  cursor: pointer;
 
 }
 
@@ -25,13 +27,15 @@
   background: transparent;
 }
 
-.portfolio__item__Image > img {
-  border-radius: 1.5rem;
+.portfolio__item__image{
   overflow: hidden;
   width: 100%;
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 225px;
+  max-height: 225px;
+
   height: 100%;
+  border-radius: 29px;
+  box-shadow: 1px 1px 1px 1px gainsboro;
 } 
 
 .portfolio__item h3 {
