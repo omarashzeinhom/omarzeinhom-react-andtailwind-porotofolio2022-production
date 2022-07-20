@@ -17,10 +17,12 @@ const Portfolio = () => {
         <Swiper
           slidesPerView={3}
           effect={"fade"}
-          spaceBetween={20}
+          spaceBetween={25}
           pagination={{
             clickable: true,
           }}
+          width="500"
+          height="500"
           modules={[Pagination]}
           className="portfolio__swiper"
         >
@@ -36,7 +38,7 @@ const Portfolio = () => {
                     <div className="portfolio__item__cta">
                       <a
                         href={github}
-                        className="btn"
+                        className="btn__portofolio"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -44,7 +46,7 @@ const Portfolio = () => {
                       </a>
                       <a
                         href={demo}
-                        className="btn btn-primary"
+                        className="btn__portofolio"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -70,7 +72,7 @@ const imgdata = [
     image:
       "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653668024/personal_portofolio_assets_2022/portfolioitems/The_Shop_ScreenShot_oxty2t.webp",
     title: "The Shop Amazon Clone",
-    github: "https://github.com/omarashzeinhom/theshop-",
+    github: "https://th3shop-8d8a3.web.app/",
     demo: "https://th3shop-8d8a3.web.app/",
   },
   {
@@ -78,7 +80,8 @@ const imgdata = [
     image:
       "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653668024/personal_portofolio_assets_2022/portfolioitems/Graph_CMS_Blog_lgrlln.webp",
     title: " GraphQL Blog",
-    github: "https://github.com/omarashzeinhom/Caferino_GraphQL_Blog ",
+    github:
+      "https://github.com/omarashzeinhom/GraphCMS-and-ReactJS-Gaming-blog-",
     demo: "https://dynamico-gaming.netlify.app",
   },
   {
@@ -86,7 +89,8 @@ const imgdata = [
     image:
       "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1656910849/personal_portofolio_assets_2022/portfolioitems/trophyhouseeg-website-collage_fmllkm.webp",
     title: "Trophy Houseeg",
-    demo: "https://www.trophyhouseeg.com/",
+    github: "https://www.gifthouseeg.org/",
+    demo: "https://www.gifthouseeg.org/",
   },
   {
     id: 4,
