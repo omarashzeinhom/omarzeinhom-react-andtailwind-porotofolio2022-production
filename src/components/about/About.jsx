@@ -12,7 +12,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me__pp">
-            <img src="https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653641528/personal_portofolio_assets_2022/pp_home_left_side_bfu1q7.webp" alt="aboutmepp" className="about__me__pp" />
+            <img src="https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653641528/personal_portofolio_assets_2022/pp_home_left_side_bfu1q7.webp" alt="aboutmepp" className="about__me__pp" loading="lazy"  />
           </div>
         </div>
 

@@ -69,11 +69,12 @@ body::-webkit-scrollbar {
 body {
   z-index: -1;
   font-weight: 700;
+  width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: var(--color-light);
-  background-position: 100% 100%;
   background-repeat: no-repeat;
   font-family: "Chivo", sans-serif;
   /*background: var(--color-linear-bg); /*Removed to disable weird effect*/
