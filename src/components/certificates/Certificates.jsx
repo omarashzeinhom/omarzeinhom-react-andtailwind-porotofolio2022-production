@@ -68,21 +68,21 @@ export default Certificates;
 const certificatedata = [
   {
     id: 1,
-    imagecert: "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653641530/personal_portofolio_assets_2022/certificateitems/udacity_nanodegree_cert_item_1_yrf9nh.webp",
+    imagecert: "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1658353800/personal_portofolio_assets_2022/certificateitems/optimized%20certifcate/udacity_nanodegree_cert_item_1_yrf9nh_aujicm.webp",
     titlecert: "Udacity Front End Web Development Professional Nano Degree",
     verify: "https://graduation.udacity.com/confirm/TKQDP47N",
     smalltxt: "TKQDP47N",
   },
   {
     id: 2,
-    imagecert: "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653641531/personal_portofolio_assets_2022/certificateitems/udacity_nanodegree_cert_item_2_andrse.webp",
+    imagecert: "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1658353800/personal_portofolio_assets_2022/certificateitems/optimized%20certifcate/udacity_nanodegree_cert_item_2_andrse_nruyc9.webp",
     titlecert: "Udacity Web Development Challenger Track Nano Degree",
     verify: "https://graduation.udacity.com/confirm/UZKL42TA",
     smalltxt: "UZKL42TA",
   },
   {
     id: 3,
-    imagecert: "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653641530/personal_portofolio_assets_2022/certificateitems/cybrary_cert_item_3_ixkele.webp",
+    imagecert: "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1658353800/personal_portofolio_assets_2022/certificateitems/optimized%20certifcate/cybrary_cert_item_3_ixkele_r77jkb.webp",
     titlecert: "Social Engineering and Manipulation",
     verify: "https://www.cybrary.it/info/verify-certificate/",
     smalltxt: "CC-d46f755c-f7ab-417c-aba0-fe008f196604",
@@ -92,12 +92,12 @@ const certificatedata = [
     imagecert: "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653641536/personal_portofolio_assets_2022/certificateitems/udemy_python_cert_item_4_catkfr.webp",
     titlecert: "Intro to Python",
     verify:
-      "https://www.udemy.com/certificate/UC-ZA24664P/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email",
+      "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1658353800/personal_portofolio_assets_2022/certificateitems/optimized%20certifcate/udemy_python_cert_item_4_catkfr_g3y8uw.webp",
     smalltxt: "UC-ZA24664P",
   },
   {
     id: 5,
-    imagecert: "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653641530/personal_portofolio_assets_2022/certificateitems/coursera_cert_item_5_adza0k.webp",
+    imagecert: "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1658353800/personal_portofolio_assets_2022/certificateitems/optimized%20certifcate/coursera_cert_item_5_adza0k_gq9jgu.webp",
     titlecert: "Coursera Ask Questions to Make Data-Driven Decisions",
     verify:
       "https://www.coursera.org/account/accomplishments/verify/GPBUT8MQ24VR",
@@ -105,7 +105,7 @@ const certificatedata = [
   },
   {
     id: 6,
-    imagecert:"https://res.cloudinary.com/dxgqvvg0z/image/upload/v1653641531/personal_portofolio_assets_2022/certificateitems/coursera_cert_item_6_eatrdp.webp",
+    imagecert:"https://res.cloudinary.com/dxgqvvg0z/image/upload/v1658353800/personal_portofolio_assets_2022/certificateitems/optimized%20certifcate/coursera_cert_item_6_eatrdp_zzqu1t.webp",
     titlecert: "Foundations: Data, Data, Everywhere",
     verify:
       "https://www.coursera.org/account/accomplishments/verify/HXKRLNTRMZVK",
