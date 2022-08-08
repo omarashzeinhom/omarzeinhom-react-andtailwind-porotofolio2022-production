@@ -85,7 +85,7 @@ const imgdata = [
   {
     id: 3,
     image:
-      "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1658350864/personal_portofolio_assets_2022/portfolioitems/trophyhouseeg-website-collage_fmllkm_1_c0wars.webp",
+      "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1659360363/Personal%20Portfolio%202023/PortfolioItems/Optimized/trophyhouseeg-website-collage_fmllkm_fv7nv3.webp",
     title: "Trophy Houseeg",
     github: "https://www.gifthouseeg.org/",
     demo: "https://www.gifthouseeg.org/",
