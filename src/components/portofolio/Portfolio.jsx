@@ -107,10 +107,10 @@ const imgdata = [
   {
     id: 6,
     image:
-      "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1658350761/personal_portofolio_assets_2022/optimized%20photos/Friendly_Eats_sqptnu_llxm6r.webp",
+      "https://cdn.sanity.io/images/ksd32xx3/production/e3e7589d7b44ab4d4a3d904d1f869f7c2f90cfc0-300x300.webp",
     title: "Egyptian Eats Firebase",
-    github: "https://github.com/omarashzeinhom/theshop-",
-    demo: "https://egyptianeats-49729.web.app/",
+    github: "https://github.com/andgo-edu/Wordpress-bootstrap5-blog",
+    demo: "https://andgoedu.lovestoblog.com/?i=1",
   },
   {
     id: 7,
@@ -154,4 +154,13 @@ const imgdata = [
     github: "https://github.com/omarashzeinhom/Rose-Weather-API-Project",
     demo: "https://dribbble.com/shots/17719546-Weatherly-UI-UX",
   },
+  {
+    id: 12,
+    image:
+      "https://res.cloudinary.com/dxgqvvg0z/image/upload/v1658350761/personal_portofolio_assets_2022/optimized%20photos/Friendly_Eats_sqptnu_llxm6r.webp",
+    title: "Egyptian Eats Firebase",
+    github: "https://github.com/omarashzeinhom/theshop-",
+    demo: "https://egyptianeats-49729.web.app/",
+  },
+  
 ];
