@@ -2,7 +2,7 @@ import "./testimonials.css";
 import React from "react";
 // Import Swiper React components
 // import required modules
-import { Pagination, EffectCube} from "swiper";
+import { Pagination} from "swiper";
 // Import Swiper styles
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
