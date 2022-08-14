@@ -8,13 +8,13 @@ import { VscCallOutgoing } from "react-icons/vsc";
 import { MdWork,MdOutlineDesignServices } from "react-icons/md";
 
 const NavigationBar = () => {
-  const [activeNav, setActiveNav] = useState("#");
+  const [activeNav, setActiveNav] = useState("header");
   return (
     <nav>
       <a
-        href="#"
-        className={activeNav === "#" ? "active" : ""}
-        onClick={() => setActiveNav("#")}
+        href="#header"
+        className={activeNav === "#header" ? "active" : ""}
+        onClick={() => setActiveNav("header")}
       >
         <IoMdHome />
       </a>
