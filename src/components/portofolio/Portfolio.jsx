@@ -31,7 +31,13 @@ const Portfolio = () => {
               return (
                 <SwiperSlide>
                   <article className="portfolio__item" key={id}>
-                      <img src={image} alt={title} loading="lazy" className="portfolio__item__image" key={id}/>
+                    <img
+                      src={image}
+                      alt={title}
+                      loading="lazy"
+                      className="portfolio__item__image"
+                      key={id}
+                    />
                     <h3>{title}</h3>
                     <div className="portfolio__item__cta">
                       <a
@@ -108,7 +114,7 @@ const imgdata = [
     id: 6,
     image:
       "https://cdn.sanity.io/images/ksd32xx3/production/e3e7589d7b44ab4d4a3d904d1f869f7c2f90cfc0-300x300.webp",
-    title: "Egyptian Eats Firebase",
+    title: "ANDGOEDU OpenSource WP Theme",
     github: "https://github.com/andgo-edu/Wordpress-bootstrap5-blog",
     demo: "https://andgoedu.lovestoblog.com/?i=1",
   },
@@ -162,5 +168,4 @@ const imgdata = [
     github: "https://github.com/omarashzeinhom/theshop-",
     demo: "https://egyptianeats-49729.web.app/",
   },
-  
 ];
